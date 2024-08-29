@@ -7,3 +7,10 @@ code --uninstall-extension ms-vscode.csharp
 
 code --install-extension <extension-vsix-path>
 ```
+
+```
+code --install-extension ms-dotnettools.csharp
+code --install-extension ms-dotnettools.csdevkit
+```
+
+ms-dotnettools.dotnet-interactive-vscode

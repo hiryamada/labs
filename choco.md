@@ -16,3 +16,8 @@ choco install -y azure-cli
 choco install -y powershell-core
 choco install -y git
 ```
+
+```pwsh
+Import-Module "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+refreshenv
+```
