@@ -12,10 +12,10 @@ iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 
 ```pwsh
 scoop install aria2
+scoop install git
 scoop bucket add extras
 
 scoop install vscode
-scoop install git
 scoop install azure-cli
 scoop install dotnet-sdk
 scoop install windows-terminal
